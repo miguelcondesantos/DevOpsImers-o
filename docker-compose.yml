@@ -1,0 +1,13 @@
+services:
+# serviços da minha aplicação
+  app:
+    build: .  # Constrói a imagem a partir do Dockerfile na raiz do projeto
+    container_name: api # Nome do container
+    ports:
+      - "8000:8000" # Mapeia a porta 8000 do container para a porta 8000 do host
+    volumes:
+      - .:/app # Monta o diretório atual no container (onde está o código da aplicação)
+    environment:
+      - PYTHONUNBUFFERED=1 # Garante que o output do Python seja exibido em tempo real
+
+      
