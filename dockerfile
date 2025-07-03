@@ -1,5 +1,5 @@
 # Dockerfile para uma aplicação Python usando Alpine Linux
-FROM python:3.13.4-alphine3.22
+FROM python:3.13.4-alpine3.22
 
 # Define o diretório de trabalho dentro do container
 WORKDIR /app
