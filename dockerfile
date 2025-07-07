@@ -20,4 +20,4 @@ EXPOSE 8000
 # Reload ativa o recarregamento automático durante o desenvolvimento
 CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
 
-#marvel
+#Marvel, Ellis
